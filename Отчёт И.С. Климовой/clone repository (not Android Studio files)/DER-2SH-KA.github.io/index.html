@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>New Start Page</title>
+        <meta charset="utf-16"/>
+        <meta name="description" content="Main Page"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="ChooseTabName()">
+        <header>
+            <nav>
+                <div class="browser_link" id="google">
+                    <a href="https://www.google.ru/" title="Google" target="_blank">Google</a>
+                </div>
+                <div class="browser_link" id="yandex">
+                    <a href="https://ya.ru/" title="Yandex" target="_blank">Yandex</a>
+                </div>
+                <div class="browser_link" id="duckduckgo">
+                    <a href="https://duckduckgo.com/" title="DuckDuckGo" target="_blank">DuckDuckGo</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1><span id="welcomeText"></span></h1>
+            <section id="searchs">
+                <div class="search_bar" id="google_bar">
+                    <form method="get" action="https://www.google.com/search">
+                        <input type="text" name="q" size="50" value="" class="aboba" placeholder="Поиск Google...">
+                    </form>
+                </div>
+                <div class="search_bar">
+                    <form method="get" action="https://yandex.ru/search">
+                        <input type="text" name="text" size="50" value="" placeholder="Поиск Яндекс...">
+                    </form>
+                </div>
+            </section>
+            <section id="links">
+                <div class="use_link" id="DNS">
+                    <a href="https://www.dns-shop.ru/" title="DNS" alt="DNS" target="_blank">DNS</a>
+                </div>
+                <div class="use_link" id="AliExpress">
+                    <a href="https://aliexpress.ru/" title="AliExpress" alt="AliExpress" target="_blank">AliExpress</a>
+                </div>
+                <div class="use_link" id="NATK">
+                    <a href="https://natk.ru/stud-grad/schedule/187?group=%D0%9F%D0%A0-22.101" title="НАТК" alt="НАТК" target="_blank">NATK</a>
+                </div>
+                <div class="use_link" id="DoNATK">
+                    <a href="https://do.natk.ru/" title="Do NATK" alt="Do NATK Ru" target="_blank">Do.<span id="DoNATK_Span">N</span>ATK</a>
+                </div>
+                <div class="use_link" id="YouTube">
+                    <a href="https://www.youtube.com/" title="YouTube" alt="YouTube" target="_blank"><span id="YouTube_FirstLetter">You</span>Tube</a>
+                </div>
+                <div class="use_link" id="MailAnswers">
+                    <a href="https://otvet.mail.ru/" title="Mail Ответы" alt="Mail Ответы" target="_blank">Mail <span id="Otvet">О</span>тветы</a>
+                </div>
+                <div class="use_link" id="YandexTranslater">
+                    <a href="https://translate.yandex.ru/" title="Yandex Переводчик" alt="Yandex Translater" target="_blank">Yandex <span id="YandexT">П</span>ереводчик</a>
+                </div>
+                <div class="use_link" id="GoogleTranslater">
+                    <a href="https://translate.google.ru/?sl=ja&tl=ru" title="Google Переводчик" alt="Google Translater" target="_blank">Google Переводчик</a>
+                </div>
+                <div class="use_link" id="VK">
+                    <a href="https://vk.com/" title="VK" alt="VK" target="_blank">ВКонтакте</a>
+                </div>
+                <div class="use_link" id="SitesForMe">
+                    <a href="SitesForMe/index.html" title="Sites For Me" alt="SiFoMe" target="_blank">Мои Сайты</a>
+                </div>
+                <div class="use_link" id="nIk">
+                    <a href="NowIKnow/index.html" title="Now I Know" alt="Now I Know" target="_blank">Now I Know</a>
+                </div>
+                <div class="use_link" id="D2K">
+                    <a href="mysite/index.html" title="D2K" alt="D2K" target="_blank">D2K</a>
+                </div>
+                <div class="use_link" id="hitek">
+                    <a href="https://stat.hitek.ru/" title="stat.hitek" alt="stat.hitek" target="_blank">Stat.Hitek.ru</a>
+                </div>
+
+                <!--<div class="use_link" id="AddWebPage">
+                    <a href="#" onclick="AddNewWebPage()" alt="+"><b>+</b></a>
+                </div>-->
+
+                <!--<div class="use_link" id="">
+                    <a href="" title="" alt="" target="_blank"></a>
+                </div>-->
+            </section>
+        </main>
+        <footer></footer>
+        <script src="script.js"></script>
+    </body>
+</html>

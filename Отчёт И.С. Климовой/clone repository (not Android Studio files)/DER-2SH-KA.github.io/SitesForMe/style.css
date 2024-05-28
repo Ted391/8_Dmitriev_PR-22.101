@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.names, .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.links {
+    margin-left: 5px;
+}
+
+.names {
+    margin-left: 20px;
+    width: 150px;
+}
+
+.ContentSite {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.ContentSite p, a {
+    font-size: 14pt;
+    line-height: 18pt;
+}
+
+.ContentSite a {
+    text-decoration: none;
+    color: #121010;
+    font-size: 16pt;
+}
+
+.siteGroupBlock {
+    margin: 1vw 1vh 1vw 1vh;
+    border-radius: 7px;
+    border: 3px solid black;
+    padding: 30px;
+}
+
+#socialMedia {
+    background-color: lightblue;
+}
+
+#learning {
+    background-color: lightsalmon;
+}
+
+#entertaiments {
+    background-color: pink;
+}
+
+#languages {
+    background-color: lightcoral;
+}
+
+#Shops {
+    background-color: orange;
+}
+
+#programing {
+    background-color: gainsboro;
+}
+
+
+#another {
+    background-color: azure;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: red;
+    font-size: 12pt;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-16"/>
+        <meta name="keywords" content="
+            Now I Know, Теперь я знаю, Для чайников, 
+            для чайников, NIK"/>
+        <meta name="description" content="Просто о сложном"/>
+        <title>Now I Know - Main</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="icon" href="Assets/favicon.ico"/>
+    </head>
+    <body>
+        <header>
+            <a href="#" title="Наш логотип"><img src="Assets/logo.png" id="logo"/></a>
+            <nav>
+                <ul id="navUl">
+                    <li class="topmenu">
+                        <a href="#" title="Темы" class="navBar">Темы</a>
+                        <div class="submenu">
+                            <a href="#" title="PC">Персональные компьютеры</a>
+                            <a href="#" title="Monitors">Мониторы</a>
+                            <a href="#" title="Periferia">Периферия</a>
+                        </div>
+                    </li>
+                    <li class="topmenu">
+                        <a href="#" title="Частые вопросы" class="navBar" id="topmenu">Частые вопросы</a>
+                        <div class="submenu">
+                            <a href="#" title="Why">Для чего этот сайт?</a>
+                            <a href="#" title="Who work">Кто работает над сайтом?</a>
+                            <a href="#" title="How search">Как найти нужную мне информацию?</a>
+                            <a href="#" title="Is it free">Доступ к информации бесплатный?</a>
+                            <a href="#" title="Another Queston">У меня другой вопрос...</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="empty"></div>
+            <input type="search" name="navSearch" placeholder="Поиск..." title="Поиск" id="inputSearch">
+            <button onclick="readInputSearch()" id="searchButton">Найти</button>
+        </header>
+        <main>
+            <section id="aboutUs">
+                <h1>Добро пожаловать на сайт <span class="siteName">NIK - Now I Know</span></h1>
+                <p>Этот сайт предназначен для <u class="important">публикации</u> и <u  class="important">изучения</u> информации 
+                    о различных товарах, их особенностях, составе, предназначении 
+                    и <u class="important">советы</u> по выбору самого лучшего для вас. Статьи пишутся людьми, 
+                    знающими своё дело и готовыми поделиться с вами своими знаниями. 
+                    Здесь также можно найти общие <u class="important">инструкции</u>, <u class="important">рекомендации</u> по сборке 
+                    или утилизации товара. Также можно оставить свою благодарность, 
+                    совет или жалобу в конце каждой статьи, чтобы помочь другим людям 
+                    или рассмотреть неупомянутые нюансы.</p>
+            </section>
+            <section id="mainContent">
+                <h2>Кем здесь можно стать?</h2>
+                <div class="cartHolder">
+                    <div class="characterModel">
+                        <h3>Читатель</h3>
+                        <p>
+                            "Люблю узнавать новое и интересное!" 
+                            - девиз настоящего Читателя. Если вы 
+                            хотите знать о том, как собрать компьютер, 
+                            сделать свой стол или даже как выбрать молоток, 
+                            то можете смело поглощать все статьи нашего сайта и 
+                            становиться <u class="important">Знающим</u>!
+                        </p>
+                    </div>
+                    <div class="characterModel">
+                        <h3>Знающий</h3>
+                        <p>
+                            Вы обладаете уникальными знаниями и хотите ими поделиться, 
+                            но все вокруг вас уже стали мастерами? Тогда наша площадка 
+                            готова предоставить вам возможность разместить статью с 
+                            вашими знаниями и опытом. Ваш опыт станет фундаментом для 
+                            тех, кто только начинает свой путь.
+                        </p>
+                    </div>
+                    <div class="characterModel">
+                        <h3>Редактор</h3>
+                        <p>
+                            Вы получили высший бал на экзамене по русскому языку? Или вы 
+                            профессионально занимаетесь правками текста? Тогда вы можете стать <u class="important">Редактором</u>. 
+                            Ведь нужно не только передать основную информацию читателю, а сделать это красиво и грамотно!
+                        </p>
+                    </div>
+                    <div class="characterModel">
+                        <h3>Модератор</h3>
+                        <p>
+                            Сайт не имеет возрастных ограничений на посещение и написание коментариев, однако бывают 
+                            сквернословные люди, шутники и спаммеры. Если вы хотите сделать проект лучше, то <u class="important">Модератор</u> NIK - это то, что нужно!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Наши контакты:</p>
+            <div id="footerSocialMedia">
+                <a href="#" title="VK"><img src="Assets/vk.png"/></a>
+                <a href="#" title="YouTube"><img src="Assets/youtube.png"/></a>
+                <a href="#" title="RuTube"><img src="Assets/rutube.png"/></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
